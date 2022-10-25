@@ -11,10 +11,10 @@ h1{
 h2{
   font-family: 'Cinzel', serif;
   font-size: 10px;
-  text-align: left;
+  text-align: right;
   transform: rotate(90deg);
-  margin-top: 885px;
-  margin-right: -470px;
+  margin-top: -597px;
+  margin-left: 465px;
 }
 
 .carousel{
@@ -63,7 +63,6 @@ h2{
 /*CARDS*/
 .card-center{
   display: flex;
-  margin-top: -1001px;
 }
 
 
