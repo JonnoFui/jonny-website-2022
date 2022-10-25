@@ -10,11 +10,11 @@ h1{
 }
 h2{
   font-family: 'Cinzel', serif;
-  font-size: 10px;
-  text-align: right;
-  transform: rotate(90deg);
-  margin-top: -597px;
-  margin-left: 465px;
+  font-size: 20px;
+  text-align: center;
+  /*transform: rotate(90deg);
+  margin-top: -596px;
+  margin-left: 465px;*/
 }
 
 .carousel{
@@ -170,17 +170,7 @@ h2{
   width: 100px;
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*FOOTER*/
+/*FOOTER*/
   footer{
   width:100%;
   background-color:#121619;
