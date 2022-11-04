@@ -17,15 +17,8 @@ h2{
   margin-left: 465px;*/
 }
 
-.carousel{
-  z-index: -10;
-}
-.offcanvas{
-  background-color: rgba(7, 31, 57, .8);
-}
-.btn-primary{
-  margin-right: 20px;
-  float: right;
+.btn{
+  margin-left: 1500px;
 }
 .offcanvas-header{
   background-color: #fff;
@@ -37,7 +30,6 @@ h2{
   list-style: none; 
   font-size: 50px;
   line-height: 250%;
-  z-index: 10;   
 }
 .lesson{
   text-decoration: none;
@@ -59,6 +51,14 @@ h2{
   color: #fff;
   font-family: 'Cinzel', serif;
 }
+.offcanvas{
+  background-color: rgba(7, 31, 57, .8);
+}
+.carousel{
+  margin-top: -50px;
+  position: relative;
+  z-index: -1000;
+}
 
 /*CARDS*/
 .card-center{
@@ -74,9 +74,9 @@ h2{
 }
 .youtube_videos .youtube{
   display:inline-block;
-  margin-bottom:1em;
-  margin-right:0.5em;
-  margin-left:0.5em;
+  margin-bottom:.5em;
+  margin-right:0.3em;
+  margin-left:0.3em;
   margin-top:0;
   
 }
