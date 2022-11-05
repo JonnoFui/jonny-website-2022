@@ -24,29 +24,30 @@
 </head>
 <body>
     <!--menú-->
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./imagenes/menu.png" class="btn-menu" alt="Menú" width="30px"></button>
+    <div class="boton_menu"></div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./imagenes/menu.png" class="btn-menu" alt="Menú" width="30px"></button>
 
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Check out</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="menu">
-                <li><a class="home" href="./index.html">Home</a></li>
-                <li><a class="lesson" href="./index2.html">Lesson</a></li>
-                <li><a class="contact" href="./index3.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <i class="fa fa-apple col-xl-3 col-md-8 col-sm-10" id="apple"></i>
-            <i class="fa fa-twitter col-xl-3 col-md-8 col-sm-10" id="twitter"></i>
-            <i class="fa fa-github-square github col-xl-3 col-md-8 col-sm-10" id="github"></i>
-            <i class="fa fa-facebook-square col-xl-3 col-md-8 col-sm-10" id="facebook"></i>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Check out</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="menu">
+                    <li><a class="home" href="./index.html">Home</a></li>
+                    <li><a class="lesson" href="./index2.html">Lesson</a></li>
+                    <li><a class="contact" href="./index3.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </div>
+    <!--CONTACT-->
+    <form class="contorno">      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+    </form>
     <!--FOOTER-->
     <footer>
         <div class="top_header">
@@ -66,9 +67,9 @@
         <span class="border-shape"></span>
         <div class="bottom_content">
             <section>
-                <a href="https://www.facebook.com/jonathan.machado.182" ><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/_jonnymachado/"><i class="fa fa-instagram"></i></a>
-                <a href="https://twitter.com/_jonnymachado"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/jonathan.machado.182" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_jonnymachado/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/_jonnymachado" target="_blank"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-telegram"></i></a>
             </section>
             <section>
