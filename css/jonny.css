@@ -1,7 +1,7 @@
-/**{
+*{
   margin: 0;
   padding: 0%;
-}*/
+}
 body{
   overflow-x: hidden
 }
@@ -53,7 +53,7 @@ h2{
   color: #fff;
   font-family: 'Cinzel', serif;
 }
-.shows{
+.galery{
   text-decoration: none;
   color: #fff;
   font-family: 'Cinzel', serif;
@@ -365,4 +365,71 @@ footer .bottom_content section{
     margin:0 5px;
     display:inline-block;
   }
+}
+
+/*PAGINA 4 GALERY*/
+.portfolio { 
+  width: 100%;
+  margin-top: 30px; 
+  font-size: 0; 
+}
+.portfolio .item { 
+  display: inline-block; 
+  font-size: 16px; 
+  width: 25%; 
+  text-align: center; 
+  margin-bottom: 30px; 
+}
+.portfolio .item .inner { 
+  height: 35vw; 
+  width: 93%; 
+  margin: auto; 
+  transform: skewY(-5deg); 
+  position: relative; 
+  overflow: hidden; 
+}
+.portfolio .item .inner:after { 
+  content: ''; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background: #000; 
+  opacity: 0; 
+  transition: opacity 0.2s ease; }
+.portfolio .item .inner img { 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  bottom: 0; 
+  height: 100%; 
+  object-fit: cover; 
+  transform: skewY(5deg) scale(1.3); 
+	transition: transform 0.6s ease;
+}
+
+.portfolio .item .inner .title { 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  z-index: 5; 
+  color: #fff; 
+  font-size: 40px; 
+  font-family: arial; 
+  transform: translate(-50%,-50%) skewY(5deg); opacity: 0; 
+  transition: opacity: 0.3s ease; 
+}
+
+.portfolio .inner:hover { 
+  cursor: pointer;  
+}
+.portfolio .inner:hover img { 
+  transform: scale(1.5) skewY(5deg); 
+}
+.portfolio .inner:hover:after { 
+  opacity: 0.8; 
+}
+.portfolio .inner:hover .title { 
+  opacity: 1; 
 }
