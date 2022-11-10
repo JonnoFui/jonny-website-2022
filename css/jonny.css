@@ -78,12 +78,10 @@ h2{
 }
 
 /*CARDS*/
-.contenedor-card{
-  overflow-x: hidden
-}
 .card-center{
   display: flex;
   margin-top: 250px;
+  margin-left: 210px;
   margin-bottom: 350px;
 }
 
@@ -161,7 +159,14 @@ h2{
 /* Desktop */
 @media (min-width:980px) {}
 /* Mobile */
-@media (max-width:480px) {}
+@media (max-width:480px) {
+  .card-center{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 0;
+    margin-bottom: 350px;
+  }
+}
 /* Tablet */
 @media (max-width:767px) {}
 @media (min-width:768px) and (max-width:979px) {}
