@@ -417,8 +417,9 @@ footer .bottom_content section{
   color: #fff; 
   font-size: 40px; 
   font-family: arial; 
-  transform: translate(-50%,-50%) skewY(5deg); opacity: 0; 
-  transition: opacity: 0.3s ease; 
+  transform: translate(-50%,-50%) skewY(5deg); 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
 
 .portfolio .inner:hover { 
